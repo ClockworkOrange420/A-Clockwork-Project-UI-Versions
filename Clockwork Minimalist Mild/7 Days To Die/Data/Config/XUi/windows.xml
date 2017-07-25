@@ -48,30 +48,30 @@
 				
 				<sprite depth="1" pos="186,60" name="healthEmpty" size="87,60" atlas="ItemIconAtlas" sprite="ui_game_symbol_health" justify="center" pivot="center" foregroundlayer="true"/>
 				<sprite depth="2" pos="186,60" name="healthEmpty" size="87,60" atlas="ItemIconAtlas" sprite="ui_game_symbol_health" justify="center" pivot="center" foregroundlayer="true"/>
-				<sprite depth="3" pos="186,60" size="87,60" controller="HUDStatBar" stat_type="Health" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="ui_game_symbol_health_full" justify="center" pivot="center" type="filled" fill="1" foregroundlayer="true" color="142,3,3" filldirection="Vertical"/>
+				<sprite depth="3" pos="186,60" size="87,60" controller="HUDStatBar" stat_type="Health" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="ui_game_symbol_health_full" justify="center" pivot="center" type="filled" fill="1" foregroundlayer="true" filldirection="Vertical"/>
 				<label depth="4" pos="186,20" size="87,60" controller="HUDStatBar" stat_type="Health" name="TextContent" font_size="20" color="[white]" justify="center" pivot="center" text="{statcurrentwithmax}"/>
 				
 				<sprite depth="1" pos="273,60" name="staminaEmpty" size="87,60" atlas="ItemIconAtlas" sprite="ui_game_symbol_stamina" justify="center" pivot="center" foregroundlayer="true"/>
 				<sprite depth="2" pos="273,60" name="staminaEmpty" size="87,60" atlas="ItemIconAtlas" sprite="ui_game_symbol_stamina" justify="center" pivot="center" foregroundlayer="true"/>
-				<sprite depth="3" pos="273,60" size="87,60" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="ui_game_symbol_stamina_full" justify="center" pivot="center" type="filled" fill="1" foregroundlayer="true" color="0,119,134" filldirection="Vertical"/>
+				<sprite depth="3" pos="273,60" size="87,60" controller="HUDStatBar" stat_type="Stamina" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="ui_game_symbol_stamina_full" justify="center" pivot="center" type="filled" fill="1" foregroundlayer="true" filldirection="Vertical"/>
 				<label depth="4" pos="273,20" size="87,60" controller="HUDStatBar" stat_type="Stamina" name="TextContent" font_size="20" color="[white]" justify="center" pivot="center" text="{statcurrentwithmax}"/>
 				
 				
 				<sprite depth="1" pos="447,60" name="waterEmpty" size="87,60" atlas="ItemIconAtlas" sprite="ui_game_symbol_thirst" justify="center" pivot="center" foregroundlayer="true"/>
 				<sprite depth="2" pos="447,60" name="waterEmpty" size="87,60" atlas="ItemIconAtlas" sprite="ui_game_symbol_thirst" justify="center" pivot="center" foregroundlayer="true"/>
-				<sprite depth="3" pos="447,60" size="87,60" controller="HUDStatBar" stat_type="Water" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="ui_game_symbol_thirst_full" justify="center" pivot="center" type="filled" fill="1" foregroundlayer="true" color="10,70,171" filldirection="Vertical"/>
+				<sprite depth="3" pos="447,60" size="87,60" controller="HUDStatBar" stat_type="Water" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="ui_game_symbol_thirst_full" justify="center" pivot="center" type="filled" fill="1" foregroundlayer="true" filldirection="Vertical"/>
 				<label depth="4" pos="447,20" size="87,60" controller="HUDStatBar" stat_type="Water" name="TextContent" font_size="20" color="[white]" justify="center" pivot="center" text="{statcurrentwithmax}"/>
 				
 				
 				<sprite depth="1" pos="360,60" name="foodEmpty" size="87,60" atlas="ItemIconAtlas" sprite="ui_game_symbol_hunger" justify="center" pivot="center" foregroundlayer="true"/>
 				<sprite depth="2" pos="360,60" name="foodEmpty" size="87,60" atlas="ItemIconAtlas" sprite="ui_game_symbol_hunger" justify="center" pivot="center" foregroundlayer="true"/>
-				<sprite depth="3" pos="360,60" size="87,60" controller="HUDStatBar" stat_type="Food" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="ui_game_symbol_hunger_full" justify="center" pivot="center" type="filled" fill="1" foregroundlayer="true" color="38,140,52" filldirection="Vertical"/>
+				<sprite depth="3" pos="360,60" size="87,60" controller="HUDStatBar" stat_type="Food" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="ui_game_symbol_hunger_full" justify="center" pivot="center" type="filled" fill="1" foregroundlayer="true" filldirection="Vertical"/>
 				<label depth="4" pos="360,20" size="87,60" controller="HUDStatBar" stat_type="Food" name="TextContent" font_size="20" color="[white]" justify="center" pivot="center" text="{statcurrentwithmax}"/>
 				
 				
 				<sprite depth="1" pos="534,60" name="PlayerLevel" size="87,60" atlas="ItemIconAtlas" sprite="ui_game_symbol_level" justify="center" pivot="center" foregroundlayer="true"/>
 				<sprite depth="2" pos="534,60" name="PlayerLevel" size="87,60" atlas="ItemIconAtlas" sprite="ui_game_symbol_level" justify="center" pivot="center" foregroundlayer="true"/>
-				<sprite depth="3" pos="534,60" size="87,60" controller="PlayerStatsWindow" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="ui_game_symbol_level_full" justify="center" pivot="center" type="filled" fill="{playerlevelfill}" foregroundlayer="true" color="212,175,55" filldirection="radial360"/>
+				<sprite depth="3" pos="534,60" size="87,60" controller="PlayerStatsWindow" visible="{statvisible}" name="BarContent" atlas="ItemIconAtlas" sprite="ui_game_symbol_level_full" justify="center" pivot="center" type="filled" fill="{playerlevelfill}" foregroundlayer="true" filldirection="radial360"/>
 				<label depth="4" pos="534,20" size="87,60" name="TextContent" controller="PlayerStatsWindow" font_size="20" color="[white]" justify="center" pivot="center" text="{playerlevel}"/>
 				
 			</panel>
