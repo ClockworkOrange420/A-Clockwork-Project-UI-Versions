@@ -44,7 +44,7 @@
 		
 	<window name="HUDLeftStatBars">
 
-			<panel name="ClockworkWatch" backgroundcolor="[black]">
+			<panel name="ClockworkWatch" backgroundcolor="[black]" controller="HUDStatBar">
 				<texture depth="1" pos="250,120" name="WatchBottom03" size="240,240" texture="@file:Mods\ACPIcons\UI\WatchBottom03.png" material="Materials/Transparent Colored" justify="center" pivot="center"/>
 				<sprite depth="2" pos="250,120" size="200,200" controller="HUDStatBar" stat_type="Health" visible="{statvisible}" name="BarContent" sprite="ui_game_filled_circle" justify="center" pivot="center" type="filled" fill="0" color="255,0,0" filldirection="radial360"/>
 				<texture depth="3" pos="250,120" name="WatchMiddle" size="240,240" texture="@file:Mods\ACPIcons\UI\WatchMiddle.png" material="Materials/Transparent Colored" justify="center" pivot="center"/>
@@ -71,7 +71,7 @@
 		</rect>
 	</window>
 	
-	<window name="windowToolbeltNumbersHUD" depth="10" width="603" height="22" pos="-313,100" anchor="CenterBottom">		
+	<window name="windowToolbeltNumbersHUD" depth="10" width="603" height="22" pos="-313,103" anchor="CenterBottom" controller="ToolbeltWindow">		
 		<label name="slot1" pos="22,0" width="22" height="22" text="  [DECEA3]1" font_size="20" justify="center"/>
 		<label name="slot2" pos="97,0" width="22" height="22" text="  [DECEA3]2" font_size="20" justify="center"/>
 		<label name="slot3" pos="172,0" width="22" height="22" text="  [DECEA3]3" font_size="20" justify="center"/>
